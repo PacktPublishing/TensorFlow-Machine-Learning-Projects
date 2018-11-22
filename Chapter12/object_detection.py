@@ -17,10 +17,6 @@ spark = SparkSession.builder \
       .config("spark.memory.offHeap.size","16g") \
       .getOrCreate()
 
-#spark.conf.set("spark.executor.memory", '8g')
-#spark.conf.set('spark.executor.cores', '3')
-#spark.conf.set("spark.driver.memory",'8g')
-
 import pyspark.sql.functions as f
 import sparkdl as dl
 from pyspark.ml.image import ImageSchema
