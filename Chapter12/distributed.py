@@ -2,12 +2,12 @@ import tensorflow as tf
 
 cluster = tf.train.ClusterSpec({
                 "worker": [
-                           "192.168.1.4:2222",
-                           "192.168.1.5:2223"
+                           "localhost:2222",
+                           "localhost:2223"
                           ]})
 # Define Servers
 worker0 = tf.train.Server(cluster, job_name="worker", task_index=0)
-#worker1 = tf.train.Server(cluster, job_name="worker", task_index=1)
+worker1 = tf.train.Server(cluster, job_name="worker", task_index=1)
 
 
 with tf.device("/job:worker/task:1"):
