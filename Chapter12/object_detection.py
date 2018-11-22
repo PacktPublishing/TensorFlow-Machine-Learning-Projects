@@ -21,8 +21,8 @@ import pyspark.sql.functions as f
 import sparkdl as dl
 from pyspark.ml.image import ImageSchema
 
-dfbuses = ImageSchema.readImages('buses/').withColumn('label', f.lit(0))
-dfcars = ImageSchema.readImages('cars/').withColumn('label', f.lit(1))
+dfbuses = ImageSchema.readImages('data/buses/').withColumn('label', f.lit(0))
+dfcars = ImageSchema.readImages('data/cars/').withColumn('label', f.lit(1))
 
 dfbuses.show(5)
 dfcars.show(5)
