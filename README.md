@@ -43,7 +43,6 @@ With the following software and hardware list you can run all code files present
 ### Software and Hardware List
 | Chapter | Software required                                                                                                                                                                               | OS required |
 | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| 1       | Samba 4.x Server Software                                                                                                                                                                       | Windows |
 | 3       | Python 3.6 Anaconda Tensorflow  1.8+ Keras 2.1+ Tensorboard 1.8+ Tensorflowjs 0.4+ numpy 1.14+ pandas 0.23+ html5lib==0.9999999                                                                 | Mac OS X, and Linux |
 | 4       | Python 3.6 Anaconda Tensorflow  1.10+  Tensorboard 1.8+ Tensorbord 1.10+ Keras 2.1+ numpy 1.14+ pandas 0.23+                                                                                    | Mac OS X, and Linux  |
 | 6       | Python 3.6 Anaconda Tensorflow 1.10+ Tensorbord 1.10+ numpy 1.14+ pandas 0.23+ matplotlib 2.2+ Gpflow                                                                                           | Mac OS X, and Linux          |
