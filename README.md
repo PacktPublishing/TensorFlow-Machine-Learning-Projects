@@ -4,7 +4,7 @@
 
 This is the code repository for [TensorFlow Machine Learning Projects](https://www.packtpub.com/big-data-and-business-intelligence/tensorflow-machine-learning-projects?utm_source=github&utm_medium=repository&utm_campaign=9781789132212 ), published by Packt.
 
-**Build 13 real-world projects with advanced numerical computations using the Python ecosystem	**
+Build 13 real-world projects with advanced numerical computations using the Python ecosystem
 
 ## What is this book about?
 TensorFlow has transformed the way machine learning is perceived. TensorFlow Machine Learning Projects teaches you how to exploit the benefits—simplicity, efficiency, and flexibility—of using TensorFlow in various real-world projects. With the help of this book, you’ll not only learn how to build advanced projects using different datasets but also be able to tackle common challenges using a range of libraries from the TensorFlow ecosystem.
@@ -74,9 +74,9 @@ is an Associate Professor at the Department of Electronics, SRCASW, University o
 ## Other books by the authors
 [Mastering Apache Storm](https://www.packtpub.com/big-data-and-business-intelligence/mastering-apache-storm?utm_source=github&utm_medium=repository&utm_campaign=9781787125636 )
 
-[](https://www.packtpub.com/big-data-and-business-intelligence/tensorflow-machine-learning-projects?utm_source=github&utm_medium=repository&utm_campaign=)
+[TensorFlow Machine Learning Projects](https://www.packtpub.com/big-data-and-business-intelligence/tensorflow-machine-learning-projects?utm_source=github&utm_medium=repository&utm_campaign=)
 
-[](https://www.packtpub.com/big-data-and-business-intelligence/tensorflow-1x-deep-learning-cookbook?utm_source=github&utm_medium=repository&utm_campaign=)
+[TensorFlow 1.x Deep Learning Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/tensorflow-1x-deep-learning-cookbook?utm_source=github&utm_medium=repository&utm_campaign=)
 
 
 ### Suggestions and Feedback
