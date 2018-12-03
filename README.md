@@ -27,13 +27,11 @@ All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
 ```
-tf.constant(
-  value,
-  dtype=None,
-  shape=None,
-  name='const_name',
-  verify_shape=False
-  )
+import pandas as pd
+train = pd.read_csv(os.path.join(dsroot,'exoTrain.csv'))
+test = pd.read_csv(os.path.join(dsroot,'exoTest.csv'))
+print('Training data\n',train.head())
+print('Test data\n',test.head())
 ```
 
 **Following is what you need for this book:**
@@ -60,7 +58,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Hands-on Artificial Intelligence with TensorFlow [[Packt]](https://packtpub.com/big-data-and-business-intelligence/hands-artificial-intelligence-tensorflow?utm_source=github&utm_medium=repository&utm_campaign=9781788998079 ) [[Amazon]](https://www.amazon.com/dp/1788998073)
 
-## Get to Know the Author
+## Get to Know the Authors
 **Ankit Jain**
 currently works as a senior research scientist at Uber AI Labs, the machine learning research arm of Uber. His work primarily involves the application of deep learning methods to a variety of Uber's problems, ranging from forecasting and food delivery to self-driving cars. Previously, he has worked in a variety of data science roles at the Bank of America, Facebook, and other start-ups. He has been a featured speaker at many of the top AI conferences and universities, including UC Berkeley, O'Reilly AI conference, and others. He has a keen interest in teaching and has mentored over 500 students in AI through various start-ups and bootcamps. He completed his MS at UC Berkeley and his BS at IIT Bombay (India).
 
