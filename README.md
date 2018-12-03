@@ -57,7 +57,7 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
 
 ### Related products
-*  [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/tensorflow-machine-learning-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1789131685)
+*  Tensorflow Machine Learning Cookbook - Second Edition [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/tensorflow-machine-learning-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1789131685)
 
 * Hands-on Artificial Intelligence with TensorFlow [[Packt]](https://packtpub.com/big-data-and-business-intelligence/hands-artificial-intelligence-tensorflow?utm_source=github&utm_medium=repository&utm_campaign=9781788998079 ) [[Amazon]](https://www.amazon.com/dp/1788998073)
 
