@@ -1,0 +1,109 @@
+<meta charset="UTF-8">
+<html>
+<head>
+<b>Type Movie Review in the Box and Hit Submit</b>
+<form id="form" onsubmit="return false;">
+    <input style="position:absolute; top:20%; left:5%; width:70%;  line-height: 4em;" type="text" id="userInput" />
+    <input style="position:absolute; top:35%; left:5%; width:70%;" type="submit" onclick="predict();" />
+    
+  
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.8.0"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<script>
+
+async function createModel()
+{
+  const model = await tf.loadModel('http://127.0.0.1:8000/model.json')
+  return model
+}
+
+
+function process(txt)
+{
+    out = txt.replace(/[^a-zA-Z0-9\s]/, '')
+    out = out.trim().split(/\s+/)
+    for (var i = 0 ; i < out.length ; i++)
+    	out[i] = out[i].toLowerCase()
+    return out
+}
+
+async function loadDict()
+{
+  await $.ajax({
+  url: 'http://127.0.0.1:8000/token_index.csv',
+  dataType: 'text',
+  crossDomain : true}).done(success);
+}
+
+function success(data)
+{
+    var wd_idx = new Object();
+    lst = data.split(/\r?\n|\r/)
+    for(var i = 0 ; i < lst.length ;i++){
+        key = (lst[i]).split(',')[0]
+        value = (lst[i]).split(',')[1]
+        
+        if(key == "")
+            continue
+        wd_idx[key] = parseInt(value)  
+    }
+    
+    word_index = wd_idx
+}
+
+function create_sequences(txt)
+{
+    max_tokens = 40 
+    tokens = []
+    words = process(txt)
+    seq = Array.from(Array(max_tokens), () => 0) 
+    start = max_tokens-words.length
+    for(var i= 0 ; i< words.length ; i++)
+    {
+        if (Object.keys(word_index).includes(words[i])){
+            seq[i+start] = word_index[words[i]]
+        }    
+    }
+    return seq
+}
+
+//Main predict function
+async function predict()
+{
+    txt  = document.getElementById("userInput").value
+    alert(txt);
+    seq = create_sequences(txt) 
+    input = tf.tensor(seq)
+    input = input.expandDims(0)
+    pred = model.predict(input)
+    document.getElementById("Sentiment").innerHTML = pred;
+    
+    pred.print()
+}
+//Initializes the model load and dictionary
+async function init()
+{
+    word_index = undefined
+	console.log('Start loading dictionary')
+	await loadDict()
+	//console.log(word_index)
+	console.log('Finish loading dictionary')
+	console.log('Start loading model') 
+	model = await createModel()
+	console.log('Finish loading model') 
+}
+
+model =undefined
+word_index =undefined
+init()
+
+</script>
+<h1><span id="Sentiment"></span></h1>
+
+
+</body>
+</html>
