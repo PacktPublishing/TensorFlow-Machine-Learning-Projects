@@ -4,6 +4,10 @@
 
 This is the code repository for [TensorFlow Machine Learning Projects](https://www.packtpub.com/big-data-and-business-intelligence/tensorflow-machine-learning-projects?utm_source=github&utm_medium=repository&utm_campaign=9781789132212 ), published by Packt.
 
+Checkout the code with the following command:
+
+git clone --recursive git@github.com:PacktPublishing/TensorFlow-Machine-Learning-Projects.git
+
 **Build 13 real-world projects with advanced numerical computations using the Python ecosystem**
 
 ## What is this book about?
@@ -63,7 +67,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 currently works as a senior research scientist at Uber AI Labs, the machine learning research arm of Uber. His work primarily involves the application of deep learning methods to a variety of Uber's problems, ranging from forecasting and food delivery to self-driving cars. Previously, he has worked in a variety of data science roles at the Bank of America, Facebook, and other start-ups. He has been a featured speaker at many of the top AI conferences and universities, including UC Berkeley, O'Reilly AI conference, and others. He has a keen interest in teaching and has mentored over 500 students in AI through various start-ups and bootcamps. He completed his MS at UC Berkeley and his BS at IIT Bombay (India).
 
 **Armando Fandango**
-creates AI empowered products by leveraging his expertise in deep learning, machine learning, distributed computing, and computational methods and has provided thought leadership roles as Chief Data Scientist and Director at startups and large enterprises. He has been advising high-tech AI-based startups. Armando has authored books titled Python Data Analysis - Second Edition and Mastering TensorFlow. He has also published research in international journals and conferences.
+creates AI empowered products by leveraging deep learning, machine learning, distributed computing, and computational methods and has provided thought leadership as Chief Data Scientist and Director at startups and large enterprises. He has been advising high-tech AI-based startups. Armando has authored books titled Python Data Analysis - Second Edition and Mastering TensorFlow. He has also published research in international journals and conferences.
 
 **Amita Kapoor**
 is an Associate Professor at the Department of Electronics, SRCASW, University of Delhi. She has been teaching neural networks for twenty years. During her PhD, she was awarded the prestigious DAAD fellowship, which enabled her to pursue part of her research work at the Karlsruhe Institute of Technology, Germany. She was awarded the Best Presentation Award at the International Conference on Photonics 2008. Being a member of the ACM, IEEE, INNS, and ISBS, she has published more than 40 papers in international journals and conferences. Her research areas include machine learning, AI, neural networks, robotics, and Buddhism and ethics in AI. She has co-authored the book, Tensorflow 1.x Deep Learning Cookbook, by Packt Publishing.
