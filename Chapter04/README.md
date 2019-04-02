@@ -1,5 +1,9 @@
 # Digit Classification using Tensorflow Lite
 This folder contains the code to build a deep learning model on MNIST handwritten digit dataset and converting the trained model to TF Lite format.
+
+### Dataset
+* https://www.tensorflow.org/guide/datasets
+
 ### Installations 
 * This code is checked on using native Python 3 with anaconda
 * Create a conda virtual environment and install relevant packages using requirements.txt file 
