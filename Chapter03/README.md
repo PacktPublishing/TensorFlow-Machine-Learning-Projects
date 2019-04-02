@@ -1,7 +1,7 @@
 # Sentiment Analysis Using Tensorflow Js
 This folder consists of the code for Chapter 1 of the book. It creates a sentiment anaylsis model using the movie reviews dataset mentioned.
 
-##Data
+## Data
 * https://www.kaggle.com/c/si650winter11/data
 
 ### Installations 
