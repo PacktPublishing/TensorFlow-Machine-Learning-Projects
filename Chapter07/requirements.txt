@@ -40,7 +40,7 @@ pbr==4.2.0
 Pillow==5.2.0
 pluggy==0.7.1
 protobuf==3.5.2
-py==1.6.0
+py==1.10.0
 pyparsing==2.2.0
 pyro-ppl==0.2.0+9c3d68e
 pytest==3.8.1
