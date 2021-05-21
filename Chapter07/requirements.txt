@@ -56,7 +56,7 @@ six==1.11.0
 statsmodels==0.9.0
 subprocess32==3.5.2
 tensorboard==1.9.0
-tensorflow==1.9.0
+tensorflow==2.5.0
 termcolor==1.1.0
 tornado==5.1
 tqdm==4.23.4
