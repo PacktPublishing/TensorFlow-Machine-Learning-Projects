@@ -21,7 +21,7 @@ gpflow==1.2.0
 graphviz==0.8
 grpcio==1.12.1
 h5py==2.8.0
-html5lib==0.9999999
+html5lib==0.99999999
 imageio==2.4.1
 Keras==2.2.4
 Keras-Applications==1.0.6
