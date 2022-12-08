@@ -1,7 +1,7 @@
 absl-py==0.2.2
 astor==0.7.1
 bleach==1.5.0
-certifi==2018.4.16
+certifi==2022.12.7
 cycler==0.10.0
 gast==0.2.0
 grpcio==1.13.0
