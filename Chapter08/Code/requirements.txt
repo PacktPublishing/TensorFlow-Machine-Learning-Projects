@@ -34,7 +34,7 @@ mkl-random==1.0.1
 mock==2.0.0
 more-itertools==4.3.0
 multipledispatch==0.6.0
-mxnet==0.11.0rc1
+mxnet==1.9.1
 networkx==2.2
 numpy==1.14.5
 olefile==0.45.1
